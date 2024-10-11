@@ -1,7 +1,11 @@
 {
   "name": "n-gram-lang-detect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "n-gram-lang-detect is a Node.js package designed to detect the language of a given string using n-gram analysis.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarezpongo/n-gram-lang-detect"
+  },
   "main": "build/index.js",
   "scripts": {
     "run-dev": "ts-node src/index.ts",
