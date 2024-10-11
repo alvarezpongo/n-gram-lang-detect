@@ -1,0 +1,22 @@
+{
+  "name": "n-gram-lang-detect",
+  "version": "1.0.0",
+  "description": "n-gram-lang-detect is a Node.js package designed to detect the language of a given string using n-gram analysis.",
+  "main": "build/index.js",
+  "scripts": {
+    "run-dev": "ts-node src/index.ts",
+    "run-prod": "ts-node build/index.js",
+    "generate-lang-profile": "ts-node src/lang_profile_generator.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alvarez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^22.7.5",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "reflect-metadata": "^0.2.2"
+  }
+}

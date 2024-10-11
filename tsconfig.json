@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+   "target": "ES2021", // Target ECMAScript 2021 or later
+    "module": "commonjs", // Use ES modules
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file name casing
+    "noEmitOnError": true, // Do not emit output if there are errors
+    "declaration": true, // only for modules in true
+    "removeComments": true, // Remove comments from output
+    "sourceMap": true, // Do not generate source maps
+    "noUnusedLocals": true, // Report errors on unused variables
+    "noUnusedParameters": true, // Report errors on unused parameters
+    "strictNullChecks": true, // Enable strict null checks
+    "strictFunctionTypes": true, // Enable strict function types
+    "strictPropertyInitialization": true, // Enable strict property initialization
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "reflect-metadata",
+      "node",
+      "jest"
+    ],
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "allowJs": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "tests",
+  ]
+}
