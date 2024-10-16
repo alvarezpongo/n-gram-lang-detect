@@ -1,0 +1,15 @@
+[
+    { "term": "championes", "mappedTerm": "zapatillas", "locale": "es" },
+    { "term": "romanitas", "mappedTerm": "chancletas", "locale": "es" },
+    { "term": "tênis", "mappedTerm": "calçado esportivo", "locale": "pt" },
+    { "term": "kit cozinha", "mappedTerm": "conjunto de utensílios de cozinha", "locale": "pt" },
+    { "term": "caçarolas de cerâmica", "mappedTerm": "caçarolas de cerâmica para cozinhar", "locale": "pt" },
+    { "term": "Perfume feminino", "mappedTerm": "Perfume para mulheres", "locale": "pt" },
+    { "term": "boné", "mappedTerm": "quepe", "locale": "pt" },
+    { "term": "canga", "mappedTerm": "pareô", "locale": "pt" },
+    { "term": "calça legging", "mappedTerm": "calça justa", "locale": "pt" },
+    { "term": "óculos de sol", "mappedTerm": "Óculos de sol com lente de aumento", "locale": "pt" },
+    { "term": "patins inline", "mappedTerm": "Patins de patinação", "locale": "pt" },
+    { "term": "capacete de ciclismo", "mappedTerm": "Capacete de proteção", "locale": "pt" },
+    { "term": "halteres", "mappedTerm": "Halteres ajustáveis com revestimento antiderrapante", "locale": "pt" }
+]
